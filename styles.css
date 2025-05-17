@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #444;
+}
+
+.player_one,
+.player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+video,
+audio {
+    width: 100%;
+    margin: 10px 0;
+}
+
+ul {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: translateX(10px);
+}
+
+a {
+    text-decoration-line: none;
+    color: #333;
+    display: block;
+    padding: 5px;
+}
+
+a:hover {
+    color: #666;
+}

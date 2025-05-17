@@ -3,56 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Playlist</title>
-    <style>
-        body {
-            background-color: rgb(204, 204, 204);
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        .player_one, .player_two {
-            background-color: rgb(255, 255, 255);
-            padding: 10px; /* Yahan padding ki value dena mat bhoolna */
-            border-radius: 5px; /* Yahan border-radius ki value dena mat bhoolna */
-        }
-        ul {
-            list-style-type: none; /* List style ko none karne ke liye */
-        }
-        a {
-            text-decoration-line: none; /* Link ki text-decoration ko none karne ke liye */
-        }
-    </style>
+    <title>My Music Playlist</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <h1>My Playlist</h1>
-    <h2>Now Playing...</h2>
-    <h2>MP3 songs</h2>
-
-    <div>
-        <ul>
-            <li><a href="link1" target="_blank">Song 1</a></li>
-            <li><a href="link2" target="_blank">Song 2</a></li>
-            <li><a href="link3" target="_blank">Song 3</a></li>
-            <li><a href="link4" target="_blank">Song 4</a></li>
-            <li><a href="link5" target="_blank">Song 5</a></li>
-        </ul>
-    </div>
 
     <div class="player_one">
-        <audio controls>
-            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
-            Your browser does not support the audio tag.
-        </audio>
-    </div>
-
-    <div class="player_two">
+        <h2>Now Playing...</h2>
         <video controls>
             <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
     </div>
 
+    <div class="player_two">
+        <audio controls>
+            <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+
+    <h2>MP3 songs</h2>
+    
+    <ul>
+        <li><a href="#" target="_blank">Song 1 - Artist Name</a></li>
+        <li><a href="#" target="_blank">Song 2 - Artist Name</a></li>
+        <li><a href="#" target="_blank">Song 3 - Artist Name</a></li>
+        <li><a href="#" target="_blank">Song 4 - Artist Name</a></li>
+        <li><a href="#" target="_blank">Song 5 - Artist Name</a></li>
+    </ul>
 </body>
 </html>
